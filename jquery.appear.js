@@ -77,6 +77,7 @@
         };
 
         $(window).scroll(on_check).resize(on_check);
+        on_check();
         check_binded = true;
       }
 
